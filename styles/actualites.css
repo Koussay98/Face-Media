@@ -1,0 +1,86 @@
+@import "Face-media.css";
+
+
+
+/** path **/
+
+#path{
+    display: flex;
+    justify-content: flex-start;
+    height: 2.1em;
+    padding: 0% 13%;
+    background-color: #f8f8f8;
+}
+
+#path img{
+    margin-top: 0.5em;
+    height: 60%;
+    width: 1.6em;
+}
+#logo-accueil{
+    margin: 0px;
+}
+.path-elt{
+    padding-left: 10px;
+    padding-bottom: 16px;
+    margin-top: 12px;
+    margin-left: 1em;
+    border-left: 1px solid #d2d2d2 ;
+    
+}
+#path a{
+    color:#333333;
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.path-elt:hover{
+    color: #256bd5;
+    border-bottom: 5px solid #256bd5;
+    margin-bottom: 0px;
+}
+
+#path a:hover{
+    color: #256bd5;
+}
+
+
+/** actualite **/
+#actualite{
+    margin: 5% 12% 10%;
+}
+
+#actualite #wrapper{
+    display: flex;
+    padding: 5px 0px;
+}
+h1{
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+    position: relative;
+    right : 15%;
+    color: #256bd5;
+}
+#date{
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #555555;
+    position: relative;
+    left: 9%;
+}
+#actualite h1, #actualite p{
+    margin: 0px;
+    padding: 0px;
+}
+#actualite img{
+    width: 100%;
+    margin: 0px;
+}
+
+#actualite #paragraph{
+    margin-top: 20px;
+    color: #888888;
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
